@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.grid-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.grid-item:hover {
+    background-color: lightblue;
+}
+
+.x {
+    background-image: url('./img/x.png');
+    background-size: cover;
+}
+
+.o {
+    background-image: url('./img/o.png');
+    background-size: cover;
+}
+
+
+
+/* .flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+} */
